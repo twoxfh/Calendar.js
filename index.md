@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+## Welcome
 
-You can use the [editor on GitHub](https://github.com/williamtroup/Calendar.js/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This page is under construction, so please be patient! The development of Calendar.js is ongoing and new versions are being pushed regularly, so keep checking back!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Getting Started
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You will need to include the JavaScript file and CSS Style Sheet in the head of your HTML:
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+<link rel="stylesheet" href="src/calendarjs.css" />
+<script src="src/calendarjs.js"></script>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+You will also need to set the page character encoding to UTF-8. This can be included in the head of your HTML as follows:
 
-### Jekyll Themes
+```markdown
+<meta charset="utf-8" />
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/williamtroup/Calendar.js/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Creating a container DIV
 
-### Support or Contact
+Add a div into your HTML and assign it an ID, as follows:
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+```markdown
+<div id="calendar"></div>
+```
+
+### Initialising Calendar.Js:
+
+It's now time to initialize Calendar.js, which is done as follows:
+
+```markdown
+<script> 
+  var instance = calendarJs("calendar"); 
+</script>
+```
+
+After this, the calendar will be rendered and you will have access to the public methods available.
+
+### Finishing Up:
+
+That's it! Nice and simple. Please refer to the code if you need more help (fully documented).
+
+Minimized versions of the files are available.
