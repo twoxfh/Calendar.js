@@ -2,6 +2,21 @@
 
 This page is under construction, so please be patient! The development of Calendar.js is ongoing and new versions are being pushed regularly, so keep checking back!
 
+![CalendarJs](https://saunterjs.co.uk/images/calendarjs.png)
+
+Calendar.js includes the following features:
+
+- Event adding, updating, and removing.
+- Full API support via public functions.
+- Drag and Drop support for events.
+- Configurable text for translations.
+- Day, Week, Month, and All Events views.
+- Fully styled in CSS/SASS (including the buttons).
+- Custom events for actions (adding/updating/removing events, skipping months, etc).
+- Export to CSV, XML, JSON and TEXT.
+- Full-screen mode.
+
+
 ### Getting Started
 
 You will need to include the JavaScript file and CSS Style Sheet in the head of your HTML:
