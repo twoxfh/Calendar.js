@@ -6,15 +6,16 @@ This page is under construction, so please be patient! The development of Calend
 
 Calendar.js includes the following features:
 
-- Event adding, updating, and removing.
-- Full API support via public functions.
-- Drag and Drop support for events.
+- Adding, updating, and removing events, with full custom colors support.
+- Full API available via public functions.
+- Drag and Drop for events.
 - Configurable text for translations.
 - Day, Week, Month, and All Events views.
 - Fully styled in CSS/SASS (including the buttons).
 - Custom events for actions (adding/updating/removing events, skipping months, etc).
 - Export to CSV, XML, JSON and TEXT.
-- Full-screen mode.
+- Full-screen mode (double clicking the title bar).
+- Search support.
 
 
 ### Getting Started
