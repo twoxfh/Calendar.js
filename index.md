@@ -16,6 +16,7 @@ Calendar.js includes the following features:
 - Export to CSV, XML, JSON and TEXT.
 - Full-screen mode (double clicking the title bar).
 - Search support.
+- Repeat every Day, Week, Month, or Year (with exclusion days support).
 
 
 ### Getting Started
