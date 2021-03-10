@@ -17,6 +17,7 @@ Calendar.js includes the following features:
 - Full-screen mode (double clicking the title bar).
 - Search support.
 - Repeat every Day, Week, Month, or Year (with exclusion days support).
+- Customizable holidays.
 
 
 ### Getting Started
