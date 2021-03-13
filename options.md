@@ -7,7 +7,7 @@ Below are all the options that can be passed to the Calendar.js constructor, or 
 <br>
 
 | Type: | Name: | Description: |
-| -------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --- | --- | --- |
 | string | previousMonthTooltipText | The tooltip text that should be used for for the "Previous Month" button. |
 | string | nextMonthTooltipText | The tooltip text that should be used for for the "Next Month" button. |
 | string | previousDayTooltipText | The tooltip text that should be used for for the "Previous Day" button. |
@@ -104,7 +104,7 @@ Below are all the options that can be passed to the Calendar.js constructor, or 
 <br>
 
 | Name: | Description: |
-| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| --- | --- |
 | onPreviousMonth | Specifies an event that will be triggered when the "Previous Month" button is pressed. |
 | onNextMonth | Specifies an event that will be triggered when the "Next Month" button is pressed. |
 | onPreviousYear | Specifies an event that will be triggered when moving to the previous year. |

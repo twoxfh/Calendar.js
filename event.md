@@ -3,7 +3,7 @@
 Below is the format that is expected for an event object when calling "addEvents()", "addEvent()", and "updateEvent()".
 
 | Type: | Name: | |
-| -------- | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| --- | --- | --- |
 | string | id | The ID for the event (set automatically if not available). |
 | string | title | The title of the event. |
 | Object | from | The date that the event occurs from. |
