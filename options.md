@@ -4,7 +4,6 @@ Below are all the options that can be passed to the Calendar.js constructor, or 
 
 
 ### Standard Options:
-<br>
 
 | Type: | Name: | Description: |
 | --- | --- | --- |
@@ -102,7 +101,6 @@ Below are all the options that can be passed to the Calendar.js constructor, or 
 <br>
 
 ### Event Options:
-<br>
 
 | Name: | Description: |
 | --- | --- |
