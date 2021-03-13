@@ -2,7 +2,7 @@
 
 This page is under construction, so please be patient! The development of Calendar.js is ongoing and new versions are being pushed regularly, so keep checking back!
 
-![CalendarJs](https://saunterjs.co.uk/images/calendarjs.png)
+![CalendarJs](images/main.png)
 
 Calendar.js includes the following features:
 
@@ -89,6 +89,38 @@ It's now time to initialize Calendar.js, which is done as follows:
 ```
 
 After this, the calendar will be rendered and you will have access to the public methods available.
+<br>
+<br>
+
+## Adding A New Event:
+
+To add a new event, click the "+" button on the toolbar.  You will be shown the following dialog:
+
+![AddEvent](images/addevent.png)
+
+Fill in the details and click "Add".  You have to specify a title and from date.  Everything else is optional.
+<br>
+<br>
+
+## Exporting Events:
+
+To export the events in the current view, click the down arrow button on the toolbar.  You will be shown the following dialog:
+
+![AddEvent](images/export.png)
+
+Select the export type you desire and press "OK".
+<br>
+<br>
+
+## Search For Events:
+
+To search for events, click the search button on the toolbar.  You will be shown the following dialog:
+
+![AddEvent](images/search.png)
+
+Enter the search criteria and select your required options.  Press "Next" to start the search.  You can move back and forth between the search results.
+
+Note:  Changing your search criteria will reset the current search.
 <br>
 <br>
 
