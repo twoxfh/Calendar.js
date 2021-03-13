@@ -27,12 +27,33 @@ Calendar.js includes the following features:
   7. Ctrl/Command + F:  Opens the search dialog.
   8. Ctrl/Command + Left:  Moves to the previous year.
   9. Ctrl/Command + Right:  Moves to the next year.
+<br>
 
-### View Latest Changes
+## Recent Changes:
 
-To view a list of the most recent pages, click [here](changes.md).
+So see all the latest changes, click [here](changes.md).
+<br>
+<br>
 
-### Getting Started
+## Options:
+
+So see all the available options, click [here](options.md).
+<br>
+<br>
+
+## Event Object Format:
+
+So see how an event object should be formatted, click [here](event.md).
+<br>
+<br>
+
+## Holiday Object Format:
+
+So see how an holiday object should be formatted, click [here](holiday.md).
+<br>
+<br>
+
+## Getting Started
 
 You will need to include the JavaScript file and CSS Style Sheet in the head of your HTML:
 
@@ -46,16 +67,18 @@ You will also need to set the page character encoding to UTF-8. This can be incl
 ```markdown
 <meta charset="utf-8" />
 ```
+<br>
 
-### Creating a container DIV
+## Creating a container DIV
 
 Add a div into your HTML and assign it an ID, as follows:
 
 ```markdown
 <div id="calendar"></div>
 ```
+<br>
 
-### Initialising Calendar.Js:
+## Initialising Calendar.Js:
 
 It's now time to initialize Calendar.js, which is done as follows:
 
@@ -66,8 +89,10 @@ It's now time to initialize Calendar.js, which is done as follows:
 ```
 
 After this, the calendar will be rendered and you will have access to the public methods available.
+<br>
+<br>
 
-### Finishing Up:
+## Finishing Up:
 
 That's it! Nice and simple. Please refer to the code if you need more help (fully documented).
 
