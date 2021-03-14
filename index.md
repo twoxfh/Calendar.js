@@ -31,25 +31,25 @@ Calendar.js includes the following features:
 
 ## Recent Changes:
 
-So see all the latest changes, click [here](changes.md).
+To see all the latest changes, click [here](changes.md).
 <br>
 <br>
 
 ## Options:
 
-So see all the available options, click [here](options.md).
+To see all the available options, click [here](options.md).
 <br>
 <br>
 
 ## Event Object Format:
 
-So see how an event object should be formatted, click [here](event.md).
+To see how an event object should be formatted, click [here](event.md).
 <br>
 <br>
 
 ## Holiday Object Format:
 
-So see how an holiday object should be formatted, click [here](holiday.md).
+To see how an holiday object should be formatted, click [here](holiday.md).
 <br>
 <br>
 
