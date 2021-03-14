@@ -1,4 +1,4 @@
-## Welcome to Calendar v0.6.2!
+## Welcome to Calendar v0.7.0!
 
 This page is under construction, so please be patient! The development of Calendar.js is ongoing and new versions are being pushed regularly, so keep checking back!
 
@@ -50,6 +50,12 @@ To see how an event object should be formatted, click [here](event.md).
 ## Holiday Object Format:
 
 To see how an holiday object should be formatted, click [here](holiday.md).
+<br>
+<br>
+
+## Public Functions:
+
+To see all the available public functions, click [here](functions.md).
 <br>
 <br>
 
