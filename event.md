@@ -2,7 +2,7 @@
 
 Below is the format that is expected for an event object when calling "addEvents()", "addEvent()", and "updateEvent()".
 
-| Type: | Name: | |
+| Type: | Name: | Description: |
 | --- | --- | --- |
 | *string* | id | The ID for the event (set automatically if not available). |
 | *string* | title | The title of the event. |
@@ -20,3 +20,4 @@ Below is the format that is expected for an event object when calling "addEvents
 | *Object* | created | The date that the event was created. |
 | *string* | organizerName | The name of the organizer. |
 | *string* | organizerEmailAddress | The email address of the organizer. |
+| *Object* | repeatEnds | The date when a repeating series should end. |

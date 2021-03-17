@@ -48,7 +48,7 @@ Below are all the options that can be passed to the Calendar.js constructor, or 
 | *string* | ndText | The day ordinal text for "nd". |
 | *string* | rdText | The day ordinal text for "rd". |
 | *string* | thText | The day ordinal text for "th". |
-| *number* | maximumEventsPerDayDisplay | The maximum number of events that should be display per day in the main calendar display (defaults to 3). |
+| *number* | maximumEventsPerDayDisplay | The maximum number of events that should be display per day in the main calendar display (defaults to 3, 0 disables it). |
 | *string* | yesText | The text that should be displayed for the "Yes" label. |
 | *string* | noText | The text that should be displayed for the "No" label. |
 | *number* | extraSelectableYearsAhead | The number of extra years ahead that are selectable in the drop down (defaults to 51). |
@@ -79,13 +79,14 @@ Below are all the options that can be passed to the Calendar.js constructor, or 
 | *number* | minimumDayHeight | States the height the main calendar days should used (defaults to 0 - auto). |
 | *string* | repeatsText | The text that should be displayed for the "Repeats:" label. |
 | *string* | repeatDaysToExcludeText | The text that should be displayed for the "Repeat Days To Exclude:" label. |
+| *string* | daysToExcludeText | The text that should be displayed for the "Days To Exclude:" label. |
 | *string* | seriesIgnoreDatesText | The text that should be displayed for the "Series Ignore Dates:" label. |
 | *string* | repeatsNever | The text that should be displayed for the "Never" label. |
 | *string* | repeatsEveryDayText | The text that should be displayed for the "Every Day" label. |
 | *string* | repeatsEveryWeekText | The text that should be displayed for the "Every Week" label. |
 | *string* | repeatsEveryMonthText | The text that should be displayed for the "Every Month" label. |
 | *string* | repeatsEveryYearText | The text that should be displayed for the "Every Year" label. |
-| *string* | selectDaysToExcludeTitle | The text that should be displayed for the "Select Days To Exclude" label. |
+| *string* | repeatOptionsTitle | The text that should be displayed for the "Repeat Options" label. |
 | *string* | moreText | The text that should be displayed for the "More" label. |
 | *Object[]* | holidays | The holidays that should be shown for specific days/months (refer to "Holiday" documentation for properties). |
 | *string* | includeText | The text that should be displayed for the "Include:" label. |
@@ -97,6 +98,14 @@ Below are all the options that can be passed to the Calendar.js constructor, or 
 | *string* | organizerEmailAddress | The default email address of the organizer (defaults to empty string). |
 | *string* | organizerNameText | The text that should be displayed for the "Organizer:" label. |
 | *string* | organizerEmailAddressText | The text that should be displayed for the "Organizer Email:" label. |
+| *string* | enableFullScreenTooltipText | The tooltip text that should be used for for the "Turn On Full-Screen Mode" button. |
+| *string* | disableFullScreenTooltipText | The tooltip text that should be used for for the "Turn Off Full-Screen Mode" button. |
+| *string* | idText | The text that should be displayed for the "ID:" label. |
+| *number* | spacing | States the default spacing that should be used for additional margins. |
+| *string* | expandMonthTooltipText | The tooltip text that should be used for for the "Expand Month" button. |
+| *string* | repeatEndsText | The text that should be displayed for the "Repeat Ends:" label. |
+| *string* | noEventsAvailableText | The text that should be displayed for the "No events available" label. |
+| *string* | viewWeekEventsText | The text that should be displayed for the "View Week Events" label. |
 
 <br>
 
@@ -115,3 +124,4 @@ Below are all the options that can be passed to the Calendar.js constructor, or 
 | onEventsAdded | Specifies an event that will be triggered when events are added (passes the events to the function). |
 | onEventsCleared | Specifies an event that will be triggered when the events are cleared. |
 | onEventsExported | Specifies an event that will be triggered when the "Export Events" button is pressed. |
+| onSetMonth | Specifies an event that will be triggered when the date on the main display is set externally. |
