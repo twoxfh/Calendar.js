@@ -29,6 +29,7 @@ Calendar.js includes the following features:
   9. Ctrl/Command + Right:  Moves to the next year.
 - Custom event groups (with configurable toggles).
 - Browser notifications for events (modern browsers only).
+- Drop file support (allowing a file containing JSON, or an array of events, to be added).
 <br>
 
 ## Recent Changes:
