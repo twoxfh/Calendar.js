@@ -1,4 +1,4 @@
-## Welcome to Calendar v0.9.7!
+## Welcome to Calendar v0.9.9!
 
 This page is under construction, so please be patient! The development of Calendar.js is ongoing and new versions are being pushed regularly, so keep checking back!
 
@@ -13,7 +13,7 @@ Calendar.js includes the following features:
 - Day, Week, Month, and All Events views.
 - Fully styled in CSS/SASS (including the buttons).
 - Custom events for actions (adding/updating/removing events, skipping months, etc).
-- Export to CSV, XML, JSON, TEXT, iCAL, MD and HTML.
+- Export to CSV, XML, JSON, TEXT, iCAL, MD, HTML, and TSV.
 - Full-screen mode (double clicking the title bar).
 - Search support.
 - Repeat every Day, Week, Month, or Year (with exclusion days support).
