@@ -1,4 +1,4 @@
-## Welcome to Calendar v1.1.1!
+## Welcome to Calendar v1.1.2!
 
 This page is under construction, so please be patient! The development of Calendar.js is ongoing and new versions are being pushed regularly, so keep checking back!
 
@@ -45,6 +45,12 @@ To see all the latest changes, click [here](changes.md).
 ## Options:
 
 To see all the available options, click [here](options.md).
+<br>
+<br>
+
+## Search Options:
+
+To see all the available search options, click [here](search_options.md).
 <br>
 <br>
 
