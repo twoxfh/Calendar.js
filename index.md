@@ -1,4 +1,4 @@
-## Welcome to Calendar v1.1.2!
+## Welcome to Calendar v1.2.0!
 
 This page is under construction, so please be patient! The development of Calendar.js is ongoing and new versions are being pushed regularly, so keep checking back!
 
@@ -10,6 +10,7 @@ Features include:
 - Adding, updating, and removing events, with full custom colors support.
 - Full API available via public functions.
 - Drag and Drop for events.
+- Copy & Paste, and Duplication of events.
 - Configurable text for translations.
 - Day, Week, Month, and All Events views.
 - Fully styled in CSS/SASS (including the buttons).
@@ -34,7 +35,7 @@ Features include:
 - Custom event groups (with configurable toggles).
 - Browser notifications for events (modern browsers only).
 - Drop file support (allowing a file containing JSON, or an array of events, to be added).
-<br>
+<br />
 
 ## Recent Changes:
 
